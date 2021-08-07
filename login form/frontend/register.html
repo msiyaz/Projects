@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Register</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    </head>
+    
+	<body class = "ibody">
+		<h1 class = "ttl">Registration</h1>
+		<form class="login-form" id = "reg-form">
+            <div class="login-form__logo-container">
+            </div>
+            <div class="login-form__content">
+                <div class="login-form__header">Register your account</div>
+                <input class="login-form__input" type="text" autocomplete = "off"name="regusername" placeholder="Username">
+                <input class="login-form__input" type="password" autocomplete="off" name="regpassword" placeholder="Password">
+                <button class="login-form__button" type="submit" value = "submit form">Login</button>
+                <div class="login-form__links">
+					<a class="login-form__link" href="./change_pass.html">Forgot your password?</a>
+				</div>
+				<div class="login-form__links">
+					<a class="login-form__link" href="./login.html">Alreday have an account?</a>
+                </div>
+            </div>
+		</form>
+		<script src = "../view/register.js"></script>
+	</body>
+</html>
