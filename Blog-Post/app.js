@@ -13,7 +13,9 @@ app.use('/posts', postRouter)
 
 //setting up the database
 mongoose.connect('mongodb://localhost/blogWebsite', {
-    useNewUrlParser: true})
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+})
 
 app.get('/',(req, res) => {
     const posts = [{
