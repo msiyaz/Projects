@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended : false}))
 app.use('/posts', postRouter)
 
 //setting up the database
-mongoose.connect('mongodb://localhost/blogWebsite', {
+mongoose.connect('mongodb://localhost:27017/blogWebsite', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })

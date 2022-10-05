@@ -7,18 +7,18 @@ router.get('/newPost' , (req , res ) =>{
 })
 
 router.get('/:id', (req,res) => {
-
+    res.send(req.params.id)
 })
 
 router.post('/', async(req,res) => {
-    const post = new Post({
+    let post = new Post({
         title: req.body.title,
         description: req.body.description,
         article: req.body.article
     })
     try{
       post = await aritcle.save()
-      res.redirect('/posts/${post.id}')
+      res.redirect(`/posts/${post.id}`)
     } catch(err){
         res.render('posts/new', {post : post})
     }
