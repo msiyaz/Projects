@@ -15,8 +15,12 @@ app.use('/posts', postRouter)
 mongoose.connect('mongodb://localhost:27017/blogWebsite', {
     useNewUrlParser: true,
     useUnifiedTopology: true
-}, () => {
-    console.log('connected')
+})
+
+mongoose.connection
+.once('open', () => console.log("Connected"))
+.on('error', error => {
+    console.log(error)
 })
 
 //Geting the index page
