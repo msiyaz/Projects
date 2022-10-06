@@ -3,7 +3,7 @@ const Post = require('./../models/post')
 const router = express.Router()
 
 router.get('/newPost' , (req , res ) =>{
-    res.render('posts/newPost')
+    res.render('posts/newPost',{post: new Post()})
 })
 
 router.get('/:id', (req,res) => {
@@ -17,11 +17,12 @@ router.post('/', async(req,res) => {
         article: req.body.article
     })
     try{
-      post = await aritcle.save()
+      post = await post.save()
       res.redirect(`/posts/${post.id}`)
     } catch(err){
+        console.log(err)
         res.render('posts/new', {post : post})
     }
-    
 })
+
 module.exports = router 

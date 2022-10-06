@@ -1,6 +1,6 @@
 const express = require('express')
 const mongoose = require ('mongoose')
-
+const post = ('./models/post')
 const app = express()
 const postRouter = require('./routes/posts')
 app.set('view engine', 'ejs')
@@ -15,23 +15,18 @@ app.use('/posts', postRouter)
 mongoose.connect('mongodb://localhost:27017/blogWebsite', {
     useNewUrlParser: true,
     useUnifiedTopology: true
+}, () => {
+    console.log('connected')
 })
 
-app.get('/',(req, res) => {
-    const posts = [{
-        title:'Test Post',
-        createdAt: new Date(),
-        description: 'Test Description'
-    }, {
-        title:'Test Post 1',
-        createdAt: new Date(),
-        description: 'Test Description 1'
-    }]
+//Geting the index page
+app.get('/',async(req, res) => {
+    const posts = await post.find()
     res.render('posts/index' , { posts : posts})
 })
 
+//Setting up the port to listen from
 const port = process.env.PORT || 3000
-
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`)
 })
