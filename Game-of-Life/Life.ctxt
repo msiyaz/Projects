@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Life
+comment0.text=\r\n\ Life\ is\ the\ driver\ class\ to\ start\ a\ selected\ configuration\ for\ Conway's\r\n\ Game\ of\ Life\r\n\r\n\ @author\ (Divine\ Badibanga\ -\ 201765203)\r\n\ @version\ (1\ -\ 24/09/20)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Life\r\n
+numComments=2

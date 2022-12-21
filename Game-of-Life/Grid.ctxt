@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Grid
+comment0.text=\r\n\ This\ class\ creates\ the\ grid\ on\ which\ the\ cells\ live\r\n\r\n\ @author\ (Divine\ Badibanga)\r\n\ @version\ (2\ -\ 19/09/20)\r\n
+comment1.params=iterations\ dimensions\ mode
+comment1.target=Grid(int,\ int,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Grid\r\n
+comment2.params=
+comment2.target=void\ genesis()
+comment2.text=\r\n\ Genesis\ creates\ the\ grid\ of\ cells\r\n\r\n
+comment3.params=
+comment3.target=void\ iterate()
+comment3.text=\r\n\ Iterate\ moves\ on\ to\ the\ next\ gen\ however\ many\ times\r\n
+comment4.params=row\ col
+comment4.target=int\ neighbourhood(int,\ int)
+comment4.text=\r\n\ Neighbourhood\ calculates\ how\ many\ alive\ cells\ there\ are\ in\ a\ given\r\n\ cell's\ neighbourhood\r\n\ \r\n\ @param\ int\ row,\ int\ col\r\n\ @return\ the\ number\ of\ alive\ cells\r\n
+comment5.params=
+comment5.target=void\ pulsar()
+comment6.params=
+comment6.target=void\ spaceship()
+comment7.params=
+comment7.target=void\ random()
+numComments=8

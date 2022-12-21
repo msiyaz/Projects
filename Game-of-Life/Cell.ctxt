@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Cell
+comment0.text=\r\n\ This\ class\ creates\ a\ cell\r\n\r\n\ @author\ (Divine\ Badibanga\ -\ 201765203)\r\n\ @version\ (2\ -\ 19/09/20)\r\n
+comment1.params=xcoord\ ycoord
+comment1.target=Cell(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Cell\r\n
+comment2.params=aliveCount
+comment2.target=void\ nextGen(int)
+comment2.text=\r\n\ This\ method\ updates\ the\ state\ of\ the\ cell\ based\ on\ the\ states\ of\ its\r\n\ neighbours\r\n\r\n\ @param\ \ aliveCount\ \ the\ number\ of\ alive\ cells\ in\ the\ neighbourhood\r\n
+comment3.params=
+comment3.target=void\ update()
+comment3.text=\r\n\ update\ goes\ on\ to\ the\ next\ generation\r\n
+comment4.params=
+comment4.target=void\ flip()
+comment4.text=\r\n\ Switch\ changes\ a\ white\ cell\ to\ black\ and\ a\ black\ cell\ to\ white\r\n
+comment5.params=
+comment5.target=int\ getState()
+comment5.text=\r\n\ getState\ returns\ the\ state\ of\ the\ cell\r\n\ \r\n\ @return\ the\ state\ of\ the\ cell\r\n
+comment6.params=state
+comment6.target=void\ setState(int)
+numComments=7

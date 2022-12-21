@@ -1,0 +1,10 @@
+RUN INSTRUCTIONS\
+1. go to command line
+2. go to the right directory
+3. enter javac *.java
+4. enter java Life (however many iterations) (dimensions) (mode)
+
+The different types of modes are "P" "L" "R" 
+For iterations and dimensions they are intergers
+
+NOTE: my spaceship moves down
