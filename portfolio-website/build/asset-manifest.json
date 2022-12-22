@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.25ff2add.css",
+    "main.js": "/static/js/main.5b383749.js",
+    "static/media/wave.png": "/static/media/wave.c6e559fee13b7418198d.png",
+    "static/media/game.jpg": "/static/media/game.55630797f1e48ef4dada.jpg",
+    "static/media/blog.png": "/static/media/blog.c9afdb00b5bfac6d299e.png",
+    "static/media/Vector2.png": "/static/media/Vector2.887b049d6e2dc9cfd525.png",
+    "static/media/rock.png": "/static/media/rock.d52d44247cd5679f419d.png",
+    "static/media/boy.png": "/static/media/boy.0b20f4e6677238d9bdd9.png",
+    "static/media/covertor.png": "/static/media/covertor.0bc9a6b388d131181f41.png",
+    "static/media/corner-detection.jpg": "/static/media/corner-detection.616a3e25ec0e1c3192e5.jpg",
+    "static/media/glassesimoji.png": "/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/Resume2.pdf": "/static/media/Resume2.4aecac2614753bbee9cd.pdf",
+    "static/media/thumbup.png": "/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/crown.png": "/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/glasses.png": "/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "static/media/instagram.png": "/static/media/instagram.3fd7bc1d4264d9b41e93.png",
+    "index.html": "/index.html",
+    "main.25ff2add.css.map": "/static/css/main.25ff2add.css.map",
+    "main.5b383749.js.map": "/static/js/main.5b383749.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25ff2add.css",
+    "static/js/main.5b383749.js"
+  ]
+}
