@@ -6,5 +6,3 @@ RUN INSTRUCTIONS\
 
 The different types of modes are "P" "L" "R" 
 For iterations and dimensions they are intergers
-
-NOTE: my spaceship moves down
